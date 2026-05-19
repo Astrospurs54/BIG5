@@ -9,7 +9,7 @@
                 engine: "4.0L V6 Petrol",
                 transmission: "Automatic",
                 fuel: "Petrol",
-                image: "assets/logo.webp",
+                image: "assets/car1.webp",
                 description: "Top condition 2023 Prado with full service history. Bull bars, roof rack, and upgraded sound system. Perfect for both city and bush driving."
             },
             {
