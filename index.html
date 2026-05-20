@@ -6,6 +6,21 @@
     <title>The Big 5 | Premium Cars Malawi</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xkEODVNApD7OAuWhh",
+      });
+   })();
+</script>
+
+
+
 </head>
 <body>
     <!-- NAVBAR -->
@@ -164,12 +179,16 @@
                 </div>
                 
                 <div class="contact-form">
-                    <form id="contact-form">
-                        <input type="text" id="name" placeholder="Your Full Name" required>
-                        <input type="tel" id="phone" placeholder="Phone Number" required>
-                        <input type="email" id="email" placeholder="Email Address">
-                        <textarea id="message" rows="5" placeholder="Tell us which car you're interested in..." required></textarea>
-                        <button type="submit" class="btn-primary">Send Message</button>
+                    <form action="" method="post" name="contact-form">
+                        <input type="text" name="Name" id="Name" placeholder="Your Full Name" required>
+
+                        <input type="tel" name="Phone" id="Phone" placeholder="Your Phone Number" required>
+
+                        <input type="email" name="Email" id="Email"      placeholder="Email Address">
+
+                        <textarea name="Comment" id="Comment" rows="5" placeholder="Tell us which car you're interested in..." required></textarea>
+
+                        <button type="submit" class="btn-primary" onclick="sendEmail()">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -248,12 +267,14 @@
                     
                     <p id="modal-description" class="modal-decription"></p>
                     
-                    <button class="btn-primary" onclick="contactSeller()">Contact Seller</button>
+                    <button class="btn-primary" onclick="contactSeller()" type="submit">Contact Seller</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="form.js"></script>
+    <script src="email.js"></script>
 </body>
 </html>

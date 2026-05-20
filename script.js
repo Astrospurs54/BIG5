@@ -1,4 +1,4 @@
- const cars = [
+const cars = [
             {
                 id: 1,
                 brand: "Toyota",
@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Show Modal
     function showCarModal(car) {
+        selectedCar = car;
         document.getElementById('modal-image').src = car.image;
         document.getElementById('modal-brand').textContent = car.brand;
         document.getElementById('modal-model').textContent = car.model;
@@ -117,8 +118,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     window.contactSeller = function() {
-        alert("Thank you! Our team will contact you shortly.");
+        if (!selectedCar) {
+            alert("No car selected. Please open a vehicle before contacting the seller.");
+            return;
+        }
+
+        const form = document.forms['contact-form'];
+        if (!form) {
+            alert("Contact form not found.");
+            return;
+        }
+
+        const commentField = form.querySelector('textarea[name="Comment"]');
+        if (commentField) {
+            commentField.value = `Interested in ${selectedCar.brand} ${selectedCar.model} (${selectedCar.year})\nPrice: ${selectedCar.price}\nMileage: ${selectedCar.mileage}\nEngine: ${selectedCar.engine}\nTransmission: ${selectedCar.transmission}\nFuel: ${selectedCar.fuel}\nDescription: ${selectedCar.description}`;
+        }
+
         modal.style.display = 'none';
+
+        if (typeof form.requestSubmit === 'function') {
+            form.requestSubmit();
+        } else {
+            form.submit();
+        }
     };
 
     // Close Modal
