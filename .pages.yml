@@ -2,7 +2,7 @@ media: assets
 content :
    - name: cars
      label: cars
-     type: file
+     type: collection
      path: cars.json
      format: json
      fields: 
