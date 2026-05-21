@@ -1,4 +1,4 @@
-media: assets/cars
+media: assets
 content:
   - name: cars
     label: cars
@@ -12,7 +12,7 @@ content:
       - { name: model, label: model, type: string }
       - { name: year, label: year, type: number }
       - { name: price, label: price, type: string }
-      - { name: millage, label: millage, type: string }
+      - { name: mileage, label: mileage, type: string }
       - { name: engine, label: engine, type: string }
       - { name: transmission, label: transmisson, type: string }
       - { name: fuel, label: fuel, type: string }

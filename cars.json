@@ -1,37 +1,32 @@
 [
-
-    {
-  "id": 1,
-  "brand": "test1",
-  "model": "Hilux22",
-  "year": 5678,
-  "price": "Mk 100,000,000",
-  "mileage": "km 8,000",
-  "engine": "v12",
-  "transmission": "Automatic",
-  "fuel": "Diesel",
-  "image": "assets/cars/1.webp",
-  "description": "this is a test upload if it works well we getting an iphone"
-},
-{"id": 2,
-  "brand": "test2",
-  "model": "audi",
-  "year": 5678,
-  "price": "Mk 100,000,000",
-  "mileage": "km 8,000",
-  "engine": "v12",
-  "transmission": "Automatic",
-  "fuel": "Diesel",
-  "image": "assets/cars/2.webp",
-  "description": "this is a test upload if it works well we getting an iphone"
-},
-
-
-
-
-
   {
     "id": 1,
+    "brand": "test1",
+    "model": "Hilux22",
+    "year": 5678,
+    "price": "Mk 100,000,000",
+    "mileage": "km 8,000",
+    "engine": "v12",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/assets/cars/1.webp",
+    "description": "this is a test upload if it works well we getting an iphone"
+  },
+  {
+    "id": 2,
+    "brand": "test2",
+    "model": "audi",
+    "year": 5678,
+    "price": "Mk 100,000,000",
+    "mileage": "km 8,000",
+    "engine": "v12",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/assets/cars/2.webp",
+    "description": "this is a test upload if it works well we getting an iphone"
+  },
+  {
+    "id": 3,
     "brand": "MAZDA",
     "model": "CX-3",
     "year": 2015,
@@ -40,8 +35,7 @@
     "engine": "skyactiv",
     "transmission": "Automatic",
     "fuel": "Diesel",
-    "image": "/assets/cars/1.webp",
+   "image": "assets/cars/1.webp",
     "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
   }
-
 ]
