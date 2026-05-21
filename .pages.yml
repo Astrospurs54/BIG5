@@ -1,4 +1,4 @@
-media: assets/ cars
+media: assets/cars
 content:
   - name: cars
     label: cars
