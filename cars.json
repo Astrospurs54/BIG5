@@ -1,5 +1,5 @@
 [
-<<<<<<< HEAD
+
     {
   "id": 1,
   "brand": "test1",
@@ -24,12 +24,12 @@
   "fuel": "Diesel",
   "image": "assets/cars/2.webp",
   "description": "this is a test upload if it works well we getting an iphone"
-}
+},
 
 
 
 
-=======
+
   {
     "id": 1,
     "brand": "MAZDA",
@@ -43,5 +43,5 @@
     "image": "/assets/cars/1.webp",
     "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
   }
->>>>>>> 4ae6bad895da6b01d9d86bb216ad23a988d9f815
+
 ]
