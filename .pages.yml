@@ -3,7 +3,7 @@ content :
    - name: cars
      label: cars
      type: collection
-     path: cars
+     path: _cars
      fields: 
         - {name: id, label: Id, type: number}
         - {name: brand,label: brand , type: string }
