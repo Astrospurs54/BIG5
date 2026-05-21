@@ -1,78 +1,18 @@
-const cars = [
-            {
-                id: 1,
-                brand: "Toyota",
-                model: "Land Cruiser Prado",
-                year: 2023,
-                price: "MK 185,000,000",
-                mileage: "8,200 km",
-                engine: "4.0L V6 Petrol",
-                transmission: "Automatic",
-                fuel: "Petrol",
-                image: "assets/car1.webp",
-                description: "Top condition 2023 Prado with full service history. Bull bars, roof rack, and upgraded sound system. Perfect for both city and bush driving."
-            },
-            {
-                id: 2,
-                brand: "Land Rover",
-                model: "Defender 110",
-                year: 2024,
-                price: "MK 245,000,000",
-                mileage: "3,100 km",
-                engine: "3.0L Inline-6 Diesel",
-                transmission: "Automatic",
-                fuel: "Diesel",
-                image: "https://picsum.photos/id/201/800/600",
-                description: "Brand new condition Defender with premium interior. Panoramic roof, terrain response system and advanced off-road capabilities."
-            },
-            {
-                id: 3,
-                brand: "Mercedes-Benz",
-                model: "GLE 450",
-                year: 2022,
-                price: "MK 135,000,000",
-                mileage: "21,000 km",
-                engine: "3.0L Turbo I6",
-                transmission: "9G-Tronic",
-                fuel: "Petrol",
-                image: "https://picsum.photos/id/870/800/600",
-                description: "Luxury SUV with AMG styling package, Burmester sound system and full Mercedes service history."
-            },
-            {
-                id: 4,
-                brand: "BMW",
-                model: "X5 M50i",
-                year: 2023,
-                price: "MK 168,000,000",
-                mileage: "12,500 km",
-                engine: "4.4L Twin-Turbo V8",
-                transmission: "Automatic",
-                fuel: "Petrol",
-                image: "https://picsum.photos/id/106/800/600",
-                description: "Powerful and refined performance SUV. Laser headlights, gesture control and M Sport package."
-            },
-            {
-                id: 5,
-                brand: "Toyota",
-                model: "Fortuner",
-                year: 2024,
-                price: "MK 92,000,000",
-                mileage: "4,800 km",
-                engine: "2.8L Diesel",
-                transmission: "Automatic",
-                fuel: "Diesel",
-                image: "https://picsum.photos/id/133/800/600",
-                description: "Extremely clean 2024 Fortuner. 7-seater with bull bar, tow hitch and excellent fuel economy."
-            }
-        ];
-
-
-
+let cars = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     const carGrid = document.getElementById('car-grid');
     const modal = document.getElementById('car-modal');
     const modalClose = document.getElementById('modal-close');
+
+    // Fetch cars data
+    fetch('cars.json')
+        .then(response => response.json())
+        .then(data => {
+            cars = data;
+            renderCars();
+        })
+        .catch(error => console.error('Error fetching cars:', error));
 
     // Render Cars
     function renderCars() {
@@ -152,9 +92,6 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.addEventListener('click', (e) => {
         if (e.target === modal) modal.style.display = 'none';
     });
-
-    // Initialize
-    renderCars();
 });
 
 
