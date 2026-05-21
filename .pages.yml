@@ -3,7 +3,8 @@ content :
    - name: cars
      label: cars
      type: collection
-     path: BIG5/cars.json
+     path: "cars.json"
+     format: "json"
      fields: 
         - {name: id, label: Id, type: number}
         - {name: brand,label: brand , type: string }
