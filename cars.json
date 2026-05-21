@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
   "id": 1,
   "brand": "test1",
@@ -28,4 +29,19 @@
 
 
 
+=======
+  {
+    "id": 1,
+    "brand": "MAZDA",
+    "model": "CX-3",
+    "year": 2015,
+    "price": "Mk 35,000,000",
+    "millage": "75,000kms",
+    "engine": "skyactiv",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/assets/cars/1.webp",
+    "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
+  }
+>>>>>>> 4ae6bad895da6b01d9d86bb216ad23a988d9f815
 ]
