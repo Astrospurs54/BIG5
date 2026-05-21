@@ -1,4 +1,6 @@
-media: assets/cars
+media:
+   input: assets/cars
+   output: /BIG5/assets/cars
 content:
   - name: cars
     label: cars
