@@ -9,7 +9,7 @@
   "engine": "v12",
   "transmission": "Automatic",
   "fuel": "Diesel",
-  "image": "assets/flayer-2.webp",
+  "image": "assets/cars/1.webp",
   "description": "this is a test upload if it works well we getting an iphone"
 },
 {"id": 2,
@@ -21,7 +21,7 @@
   "engine": "v12",
   "transmission": "Automatic",
   "fuel": "Diesel",
-  "image": "assets/flayer-2.webp",
+  "image": "assets/cars/2.webp",
   "description": "this is a test upload if it works well we getting an iphone"
 }
 
