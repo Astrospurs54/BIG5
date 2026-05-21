@@ -3,9 +3,8 @@ content :
    - name: cars
      label: cars
      type: collection
-     path: cars
+     path: cars.json
      format: json
-     filename: 'cars.json'
      fields: 
         - {name: id, label: Id, type: number}
         - {name: brand,label: brand , type: string }
