@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "brand": "test1",
-    "model": "Hilux22",
-    "year": 5678,
-    "price": "Mk 100,000,000",
-    "mileage": "km 8,000",
-    "engine": "v12",
+    "brand": "MAZDA",
+    "model": "CX-5",
+    "year": 2014,
+    "price": "Mk 48,000,000",
+    "mileage": "76,000kms",
+    "engine": "Skyactiv",
     "transmission": "Automatic",
-    "fuel": "Diesel",
-    "image": "/assets/cars/1.webp",
-    "description": "this is a test upload if it works well we getting an iphone"
+    "fuel": "Petrol",
+    "image": "/BIG5/assets/cars/10.webp",
+    "description": "UNREGISTERED MAZDA CX-5 IN LILONGWE, just arrived (Duty paid)"
   },
   {
     "id": 2,
-    "brand": "test2",
-    "model": "audi",
-    "year": 5678,
-    "price": "Mk 100,000,000",
-    "mileage": "km 8,000",
-    "engine": "v12",
+    "brand": "MAZDA",
+    "model": "Axella",
+    "year": 2018,
+    "price": "Mk 32,000,000",
+    "mileage": "105,000kms",
+    "engine": "Skyactiv",
     "transmission": "Automatic",
-    "fuel": "Diesel",
-    "image": "/assets/cars/2.webp",
-    "description": "this is a test upload if it works well we getting an iphone"
+    "fuel": "Petrol",
+    "image": "/BIG5/assets/cars/13.webp",
+    "description": "UNRESISTERED MAZDA AXELLA IN LILONGWE,  just arrived (Duty paid), very very smart machine"
   },
   {
     "id": 3,
@@ -35,7 +35,7 @@
     "engine": "skyactiv",
     "transmission": "Automatic",
     "fuel": "Diesel",
-    "image": "assets/cars/1.webp",
+    "image": "/BIG5/assets/cars/1.webp",
     "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
   }
 ]
