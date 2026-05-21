@@ -37,5 +37,18 @@
     "fuel": "Diesel",
     "image": "/BIG5/assets/cars/1.webp",
     "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
+  },
+  {
+    "id": 4,
+    "brand": "BMW",
+    "model": "X3",
+    "year": 2019,
+    "price": "MK 105,000,000",
+    "mileage": "45,000kms",
+    "engine": "Petrol Engine",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "image": "/BIG5/assets/cars/car1.webp",
+    "description": "UNREGISTERED BMW X3 IN LILONGWE, just arrived (Duty paid) very very smart machine."
   }
 ]
