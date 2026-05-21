@@ -1,1 +1,18 @@
 media: assets
+content :
+   - name: cars
+     label: cars
+     type: collection
+     path: cars.json
+     fields: 
+        - {name: id, label: Id, type: number}
+        - {name: brand,label: brand , type: string }
+        - {name: model , label: model , type: string, }
+        - {name: year , label: year, type: number, }
+        - {name: price, label: price, type: string, }
+        - {name: millage, label: millage, type: string , }
+        - {name: engine, label: engine, type: string, }
+        - {name: transmission , label: transmisson, type: string, }
+        - {name: fuel , label: fuel, type: string, }
+        - {name: image, label: image, type: image, }
+        - {name: description, label: description, type: string, options: {maxlength: 160}}
