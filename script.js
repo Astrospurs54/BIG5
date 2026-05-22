@@ -114,5 +114,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+// load more cars    
+
+const btnLarge = document.querySelector(".btn-primary.small");
+const wrapper2 = document.querySelector(".wrapper2");
+
+if (btnLarge) {
+    btnLarge.addEventListener("click", () => {
+        if (!wrapper2) {
+            console.warn('wrapper2 element not found');
+            return;
+        }
+
+        const isScrollable = wrapper2.classList.toggle('scrollable');
+        // update button text
+        btnLarge.textContent = isScrollable ? 'Collapse' : 'Load More';
+    });
+} else {
+    console.warn('Load More button (.btn-primary.large) not found');
+}
+
+ 
+
+
+
 
  

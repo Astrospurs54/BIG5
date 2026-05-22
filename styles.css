@@ -147,7 +147,58 @@ body {
 }
 
 .section { padding: 100px 0; }
-.container { max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
+.container { 
+    max-width: 1280px;
+    margin: 0 auto; 
+    padding: 0 2rem;
+    
+}
+.wrapper2{
+    max-width: 1280px;
+    margin: 0 auto; 
+     height: 53rem;
+   overflow-y: hidden;
+}
+.small{
+    margin: 2rem auto;
+    display: block;
+
+}
+
+/* When .scrollable is added, wrapper2 becomes a fixed-height scroll box */
+.wrapper2.scrollable{
+     /* adjust as needed */
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    padding-right: 8px; /* avoid content behind scrollbar */
+}
+
+/* Custom scrollbar for wrapper2 */
+.wrapper2.scrollable::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.wrapper2.scrollable::-webkit-scrollbar-track {
+    background: #111;
+    border-radius: 9999px;
+}
+
+.wrapper2.scrollable::-webkit-scrollbar-thumb {
+    background: #219abc;
+    border-radius: 9999px;
+}
+
+.wrapper2.scrollable::-webkit-scrollbar-thumb:hover {
+    background: #4fc8e0;
+}
+
+.wrapper2.scrollable {
+    scrollbar-width: thin;
+    scrollbar-color: #219abc #111;
+}
+
 .section-title { 
     font-family: 'Playfair Display', sans-serif;
     font-size: 3rem; 
@@ -406,6 +457,9 @@ margin-bottom: 2rem; font-size: 1.6rem;
 .modal-brand{
     font-size: .8rem;
 }
+
+
+
 .modal-details h2{
      font-size: 1rem;
      margin-bottom: 20px;
@@ -647,6 +701,12 @@ display: none;
 .modal-decription{
     font-size: .8rem;
     margin: .5rem 0 1rem;
+}
+.wrapper2{
+    max-width: 1280px;
+    margin: 0 auto; 
+     height: 63rem;
+   overflow-y: hidden;
 }
 }
 @media (max-width: 768px) {
@@ -1139,6 +1199,12 @@ display: none;
     font-size: .6rem;
     margin: .5rem 0 1rem;
 }
+.wrapper2{
+    max-width: 1280px;
+    margin: 0 auto; 
+     height: 63rem;
+   overflow-y: hidden;
+}
 }
 @media (max-width: 400px) {
     .heading {
@@ -1234,7 +1300,12 @@ display: none;
     justify-content: center;
     text-align: center;
 }
-
+.wrapper2{
+    max-width: 1280px;
+    margin: 0 auto; 
+     height: 73.5rem;
+   overflow-y: hidden;
+}
 
 }
 @media (max-width: 400px) {
