@@ -50,5 +50,44 @@
     "fuel": "Petrol",
     "image": "/BIG5/assets/cars/car1.webp",
     "description": "UNREGISTERED BMW X3 IN LILONGWE, just arrived (Duty paid) very very smart machine."
+  },
+  {
+    "id": 5,
+    "brand": "TOYOTA",
+    "model": "HIACE",
+    "year": 2015,
+    "price": "MK 65,000,000",
+    "mileage": "78,000kms",
+    "engine": "1TR ",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "image": "/BIG5/assets/cars/11.webp",
+    "description": "UNREGISTERED TOYOTA HIACE IN LILONGWE, just arrived ( Duty paid ) very very smart machine."
+  },
+  {
+    "id": 6,
+    "brand": "TOYOTA",
+    "model": "FORTUNER",
+    "year": 2022,
+    "price": "MK 185,000,000",
+    "mileage": "50,000kms",
+    "engine": "GD6 2.4-Diesel",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/BIG5/assets/cars/9.webp",
+    "description": "UNREGISTERD TOYOTA FORTUNER IN LILONGWE, Ex -RSA Duty Fully Paid, Ver very smart machine"
+  },
+  {
+    "id": 7,
+    "brand": "FORD ",
+    "model": "EVEREST XLT",
+    "year": 2017,
+    "price": "MK 137,000,000",
+    "mileage": "87,000 kms",
+    "engine": "3.2L Diesel",
+    "transmission": "Automatic 4x4",
+    "fuel": "Diesel",
+    "image": "/BIG5/assets/cars/8.webp",
+    "description": "UNREGISTERED FORD EVEREST XLT IN LILONGWE, EX_RSA Duty Fully paid, Mugrims/Extra Features, very very smart machine"
   }
 ]
