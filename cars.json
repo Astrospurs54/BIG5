@@ -89,5 +89,27 @@
     "fuel": "Diesel",
     "image": "/BIG5/assets/cars/8.webp",
     "description": "UNREGISTERED FORD EVEREST XLT IN LILONGWE, EX_RSA Duty Fully paid, Mugrims/Extra Features, very very smart machine"
+  },
+  {
+    "id": 8,
+    "brand": "TOYOTA",
+    "model": "FORTUNER",
+    "year": 2022,
+    "price": "MK 185,000,000",
+    "mileage": "59,000 kms",
+    "engine": "GD6 2.8 Diesel",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/BIG5/assets/cars/7.webp",
+    "description": "UNREGISTERED TOYOTA FORTUNER IN LILONGWE, EX_RSA ,Papers available, Mugrims / Extra Features, very very smart machine"
+  },
+  {
+    "id": 9,
+    "brand": "FORD",
+    "model": "EVEREST",
+    "year": 2018,
+    "price": "MK 140,000,000",
+    "mileage": "100,000 kms",
+    "engine": "3.2L "
   }
 ]
