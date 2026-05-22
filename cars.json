@@ -106,10 +106,38 @@
   {
     "id": 9,
     "brand": "FORD",
-    "model": "EVEREST",
+    "model": "EVEREST LIMITED",
     "year": 2018,
     "price": "MK 140,000,000",
     "mileage": "100,000 kms",
-    "engine": "3.2L "
+    "engine": "3.2L ",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/BIG5/assets/cars/6.webp",
+    "description": "UNREGISTERED FORD EVEREST LIMITED IN LILONGWE, EX_RSA papers available, sunroof / Extra Features, very very smart machine"
+  },
+  {
+    "id": 10,
+    "brand": "TOYOTA",
+    "model": "HILUX LEGEND 50",
+    "year": 2020,
+    "price": "MK 220,000,000",
+    "mileage": "68,000 kms",
+    "engine": "GD6 2.8 DIESEL",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "image": "/BIG5/assets/cars/5.webp",
+    "description": "UNREGISTERED TOYOTA HILUX LEGEND 50 IN LILONGWE, EX_RSA Duty Fully paid, Mugrims / Extra Features, very very smart machine"
+  },
+  {
+    "id": 11,
+    "brand": "TOYOTA",
+    "model": "HILUX",
+    "year": 2025,
+    "price": "MK 260,000,000",
+    "mileage": "13,000 kms",
+    "engine": "GD6 2.8 DIESEL",
+    "transmission": "Automatic",
+    "fuel": "Diesel"
   }
 ]
