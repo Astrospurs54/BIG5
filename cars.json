@@ -137,7 +137,32 @@
     "price": "MK 260,000,000",
     "mileage": "13,000 kms",
     "engine": "GD6 2.8 DIESEL",
+    "transmission": "Automatic 4x4",
+    "fuel": "Diesel",
+    "image": "/BIG5/assets/cars/4.webp",
+    "description": "UNREGISTERED TOYOTA HILUX IN LILONGWE, EX_RSA Duty Fully paid, Mugrims/Extra Features, very very smart machine"
+  },
+  {
+    "id": 12,
+    "brand": "SUZUKI",
+    "model": "ALTO",
+    "year": 2016,
+    "price": "MK 12,500,000",
+    "mileage": "Low Mileage",
     "transmission": "Automatic",
-    "fuel": "Diesel"
+    "fuel": "Petrol",
+    "image": "/BIG5/assets/cars/3.webp",
+    "description": "UNREGISTERED SUZUKI ALTO IN LILONGWE, smart and clean interior very very smart machine"
+  },
+  {
+    "id": 13,
+    "brand": "HONDA",
+    "model": "FREED",
+    "year": 2010,
+    "price": "MK 12,500,000",
+    "engine": "L15A",
+    "fuel": "Petrol",
+    "image": "/BIG5/assets/cars/2.webp",
+    "description": "REGISTERED HONDA FREED IN BLANTYRE , second paint, well maintained perfect runner."
   }
 ]
