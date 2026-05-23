@@ -28,14 +28,14 @@
   {
     "id": 3,
     "brand": "MAZDA",
-    "model": "CX-3",
-    "year": 2015,
+    "model": "AXELLA",
+    "year": 2018,
     "price": "Mk 35,000,000",
-    "mileage": "75,000kms",
-    "engine": "skyactiv",
-    "transmission": "Automatic",
-    "fuel": "Diesel",
-    "image": "/BIG5/assets/cars/1.webp",
-    "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
+    "mileage": "105,000 kms",
+    "engine": "SKYACTIV",
+    "transmission": "AUTOMATIC",
+    "fuel": "PETROL",
+    "image": "/BIG5/assets/cars/12.webp",
+    "description": "Unregistered MAZDA AXELLA in Lilongwe, just arrived(Duty paid), very very smart machine"
   }
 ]
