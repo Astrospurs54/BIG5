@@ -30,12 +30,25 @@
     "brand": "MAZDA",
     "model": "AXELLA",
     "year": 2018,
-    "price": "Mk 35,000,000",
+    "price": "Mk 32,000,000",
     "mileage": "105,000 kms",
     "engine": "SKYACTIV",
     "transmission": "AUTOMATIC",
     "fuel": "PETROL",
     "image": "/BIG5/assets/cars/12.webp",
     "description": "Unregistered MAZDA AXELLA in Lilongwe, just arrived(Duty paid), very very smart machine"
+  },
+  {
+    "id": 4,
+    "brand": "BMW",
+    "model": "x3",
+    "year": 2019,
+    "price": "MK 105,000,000",
+    "mileage": "45,000kms",
+    "engine": "Petrol Engine",
+    "transmission": "AUTOMATIC",
+    "fuel": "PETROL",
+    "image": "/BIG5/assets/cars/car1.webp",
+    "description": "UNREGISTERED BMW X3 IN LILONGWE, just arrived (Duty paid) very very smart machine."
   }
 ]
