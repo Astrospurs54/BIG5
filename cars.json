@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "brand": "test1",
+    "brand": "MAZ",
     "model": "Hilux22",
     "year": 5678,
     "price": "Mk 100,000,000",
@@ -35,8 +35,7 @@
     "engine": "skyactiv",
     "transmission": "Automatic",
     "fuel": "Diesel",
-    "image": "assets/cars/1.webp",
+    "image": "/BIG5/assets/cars/1.webp",
     "description": "Unregistered MAZDA CX-3 in Lilongwe, just arrived(Duty paid), very very smart machine"
   }
-
 ]
