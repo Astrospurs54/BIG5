@@ -22,7 +22,7 @@
     "engine": "SKYACTIV",
     "transmission": "AUTOMATIC",
     "fuel": "DIESEL",
-    "image": "/BIG5/assets/cars/10.webp",
+    "image": "/assets/cars/10.webp",
     "description": "UNREGISTERED MAZDA CX-5 IN LILONGWE, just arriver (Duty paid), very very smart machine "
   },
   {
@@ -35,11 +35,24 @@
     "engine": "SKYACTIV",
     "transmission": "AUTOMATIC",
     "fuel": "PETROL",
-    "image": "/BIG5/assets/cars/12.webp",
+    "image": "/assets/cars/12.webp",
     "description": "Unregistered MAZDA AXELLA in Lilongwe, just arrived(Duty paid), very very smart machine"
   },
   {
     "id": 4,
+    "brand": "TOYOTA ",
+    "model": "HIACE",
+    "year": 2015,
+    "price": "MK 65,000,000",
+    "mileage": "78,000kms",
+    "engine": "1TR",
+    "transmission": "AUTOMATIC",
+    "fuel": "PETROL",
+    "image": "/assets/cars/11.webp",
+    "description": "UNREGISTERED TOYOTA HIACE IN LILONGWE, just arrived (Duty paid) very very smart machine."
+  },
+   {
+    "id": 5,
     "brand": "BMW",
     "model": "x3",
     "year": 2019,
@@ -48,7 +61,125 @@
     "engine": "Petrol Engine",
     "transmission": "AUTOMATIC",
     "fuel": "PETROL",
-    "image": "/BIG5/assets/cars/car1.webp",
+    "image": "/assets/cars/car1.webp",
     "description": "UNREGISTERED BMW X3 IN LILONGWE, just arrived (Duty paid) very very smart machine."
-  }
+  },
+  {
+    "id": 6,
+    "brand": "MAZDA",
+    "model": "AXELLA",
+    "year": 2017,
+    "price": "MK 29,000,000",
+    "mileage": "Low mileage",
+    "engine": "",
+    "transmission": "AUTOMATIC",
+    "fuel": "PETROL",
+    "image": "/assets/cars/13.webp",
+    "description": "UNREGISTERED MAZDA AXELLA IN LILONGWE, just arrived (Duty paid) very very smart machine."
+}, 
+ {
+    "id": 7,
+    "brand": "TOYOTA ",
+    "model": "FORTUNER",
+    "year": 2022,
+    "price": "MK 185,000,000",
+    "mileage": "50,000 kms",
+    "engine": "GD6 2.4 DIESEL",
+    "transmission": "AUTOMATIC",
+    "fuel": "DIESEL",
+    "image": "/assets/cars/9.webp",
+    "description": "UNREGISTERED TOYOTA FORTUNER IN LILONGWE, EX-RSA (Duty fully paid) very very smart machine."
+},
+  {
+    "id": 8,
+    "brand": "FORD",
+    "model": "EVEREST XLT",
+    "year": 2017,
+    "price": "MK 137,000,000",
+    "mileage": "87,000 kms",
+    "engine": "3.2L DIESEL",
+    "transmission": "AUTOMATIC 4x4",
+    "fuel": "DIESEL",
+    "image": "/assets/cars/8.webp",
+    "description": "UNREGISTERED FORD EVEREST XLT IN LILONGWE, EX-RSA Duty Fully Paid mugrims / Extra features. very very smart machine."
+},
+  {
+    "id": 9,
+    "brand": "TOYOTA ",
+    "model": "FORTUNER",
+    "year": 2022,
+    "price": "MK 185,000,000",
+    "mileage": "59,000 kms",
+    "engine": "GD6 2.8 DIESEL",
+    "transmission": "AUTOMATIC",
+    "fuel": "DIESEL",
+    "image": "/assets/cars/7.webp",
+    "description": "UNREGISTERED TOYOTA FORTUNER IN LILONGWE, EX-RSA papers available. very very smart machine."
+},
+  {
+    "id": 10,
+    "brand": "FORD",
+    "model": "EVEREST LIMITED",
+    "year": 2018,
+    "price": "MK 140,000,000",
+    "mileage": "100,000 kms",
+    "engine": "3.2L DIESEL",
+    "transmission": "AUTOMATIC",
+    "fuel": "DIESEL",
+    "image": "/assets/cars/6.webp",
+    "description": "UNREGISTERED FORD EVEREST LIMITED IN LILONGWE, EX-RSA papers available. very very smart machine."
+},
+  {
+    "id": 11,
+    "brand": "TOYOTA ",
+    "model": "HILUX LEGEND 50",
+    "year": 2020,
+    "price": "MK 220,000,000",
+    "mileage": "68,000 kms",
+    "engine": "GD6 2.8 DIESEL",
+    "transmission": "AUTOMATIC 4x4",
+    "fuel": "DIESEL",
+    "image": "/assets/cars/5.webp",
+    "description": "UNREGISTERED TOYOTA HILUX LEGEND 50 IN LILONGWE, EX-RSA Duty Fully Paid. very very smart machine."
+},
+ {
+    "id": 12,
+    "brand": "TOYOTA ",
+    "model": "HILUX ",
+    "year": 2025,
+    "price": "MK 260,000,000",
+    "mileage": "13,000 kms",
+    "engine": "GD6 2.8 DIESEL",
+    "transmission": "AUTOMATIC 4x4",
+    "fuel": "DIESEL",
+    "image": "/assets/cars/4.webp",
+    "description": "UNREGISTERED TOYOTA HILUX IN LILONGWE, EX-RSA Duty Fully Paid. very very smart machine."
+},
+ {
+    "id": 13,
+    "brand": "SUZUKI ",
+    "model": "ALTO",
+    "year": 2016,
+    "price": "MK 12,500,000",
+    "mileage": "Low mileage",
+    "engine": "",
+    "transmission": "AUTOMATIC ",
+    "fuel": "PETROL",
+    "image": "/assets/cars/3.webp",
+    "description": "UNREGISTERED SUZUKI ALTO IN LILONGWE, smart and clean interior. very very smart machine."
+},
+
+ {
+    "id": 14,
+    "brand": "HONDA ",
+    "model": "FREED",
+    "year": 2019,
+    "price": "MK 12,500,000",
+    "mileage": "",
+    "engine": "L15A",
+    "transmission": "AUTOMATIC",
+    "fuel": "PETROL",
+    "image": "/assets/cars/2.webp",
+    "description": "UNREGISTERED HONDA FREED IN BLANTYRE, Well maintained, Perfect runner, second paint, very very smart machine."
+}
 ]

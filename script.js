@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error fetching cars:', error));
 
     // Render Cars
-    function renderCars() {
+    function renderCars(carsToRender = cars) {
         carGrid.innerHTML = '';
 
-        cars.forEach(car => {
+        carsToRender.forEach(car => {
             const card = document.createElement('div');
             card.className = 'car-card';
             card.innerHTML = `
@@ -37,6 +37,47 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             card.addEventListener('click', () => showCarModal(car));
             carGrid.appendChild(card);
+        });
+    }
+
+    // Search Functionality
+    const searchInput = document.getElementById('search');
+    const searchBtn = document.querySelector('.search-btn');
+
+    function filterCars(query) {
+        const searchQuery = query.toLowerCase().trim();
+        
+        if (searchQuery === '') {
+            renderCars(cars);
+            return;
+        }
+
+        const filteredCars = cars.filter(car => {
+            const brand = car.brand.toLowerCase();
+            const model = car.model.toLowerCase();
+            const year = car.year.toString();
+            const fuel = car.fuel.toLowerCase();
+            
+            return brand.includes(searchQuery) || 
+                   model.includes(searchQuery) || 
+                   year.includes(searchQuery) || 
+                   fuel.includes(searchQuery);
+        });
+
+        renderCars(filteredCars);
+    }
+
+    // Search button click event
+    if (searchBtn) {
+        searchBtn.addEventListener('click', () => {
+            filterCars(searchInput.value);
+        });
+    }
+
+    // Real-time search as user types
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            filterCars(e.target.value);
         });
     }
 
